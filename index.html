@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Righteous&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+  <div id="popup" class="hidden">
+    <img src="resources/images/resume-screenshot.png" alt="Resume Image" id="resume-img">
+    <button id="resume-btn"></button>
+  </div>
+  <header>
+    <a class="social" id="github" href="https://github.com/loganwinnier"><img src="resources/images/github.svg"
+           alt="Github"></a>
+
+    <div id="navbar">
+      <nav class="nav-header">
+        <a href="#landing">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#projects-head">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <a class="social" id="linkedin" href="https://www.linkedin.com/in/logan-winnie-01597a1a7/"><img
+           src="resources/images/linkedin.svg"
+           alt="LinkedIn"></a>
+  </header>
+  <div id="landing">
+    <h1>Hi, I'm Logan,</h1>
+    <h2 id="subheading">web devloper in progress</h2>
+  </div>
+  <div id="about-section">
+    <div id="about-image">
+    </div>
+    <div id="about-me">
+      <h2 class="sec-head">About me.</h2>
+      <p id="about">I'm a psychology student turned software engineer. Stumbling into my love of coding while attempting
+        to build
+        a
+        website for myself at a young age, I since spent countless hours making small creative projects over the
+        years.
+        I
+        now decided to make the change to becoming a software engineer.
+        Using my passion for design and all things art along
+        with my history in the field of psychology, I make intuitive and user-centric software solutions that catch
+        the
+        eye.</p>
+      <a href="resources/Resume.pdf" download="Resume"><button id="resume">Resume</button></a>
+    </div>
+  </div>
+  <div id="project-wrap">
+    <h2 class="sec-head" id="projects-head">Projects</h2>
+    <div id="projects">
+      <div class="card">
+        <h2 class="card-head">Meme Generator</h2>
+        <img src="resources/images/Screenshot 2023-09-01 125602.png" alt="Image here">
+        <p class="description">Simple meme generator</p>
+        <button class="hidden"> Open</button>
+      </div>
+      <div class="card" id="center">
+        <h2 class="card-head">Coming Soon</h2>
+        <img src="resources/images/Asset 1.svg" alt="Image here" id="center-img">
+        <p class="description" id="more">More is on the way</p>
+        <button id="more-btn" class="hidden"> Open</button>
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    <h2 class="sec-head">Let's Get in touch</h2>
+    <h2 id="email-tag">Shoot me an email</h2>
+    <h2 id="email">loganwinnier@gmail.com</h2>
+  </div>
+</body>
+
+</html>
